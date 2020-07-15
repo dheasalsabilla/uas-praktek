@@ -1,11 +1,11 @@
 object Form1: TForm1
-  Left = 305
+  Left = 399
   Height = 240
-  Top = 200
+  Top = 202
   Width = 320
-  Caption = 'Form1'
   ClientHeight = 240
   ClientWidth = 320
+  Color = 12615680
   LCLVersion = '2.0.6.0'
   object Edit1: TEdit
     Left = 200
@@ -15,20 +15,38 @@ object Form1: TForm1
     TabOrder = 0
   end
   object Label1: TLabel
-    Left = 80
-    Height = 15
+    Left = 46
+    Height = 19
     Top = 24
-    Width = 163
+    Width = 234
     Caption = 'MENGHITUNG pH ASAM KUAT'
+    Color = 16777073
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
     ParentColor = False
+    ParentFont = False
+    Transparent = False
   end
   object Label2: TLabel
     Left = 32
     Height = 15
     Top = 72
-    Width = 113
+    Width = 117
     Caption = 'Konsentrasi Asam(M)'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
     ParentColor = False
+    ParentFont = False
   end
   object Label3: TLabel
     Left = 32

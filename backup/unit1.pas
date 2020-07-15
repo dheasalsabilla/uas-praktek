@@ -21,6 +21,7 @@ type
     Label3: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
   private
 
   public
@@ -49,6 +50,11 @@ begin
   edit1.text:= ' ' ;
   label3.caption:= ' ';
   edit1.setfocus;
+end;
+
+procedure TForm1.Button3Click(Sender: TObject);
+begin
+  application.terminate;
 end;
 
 end.
